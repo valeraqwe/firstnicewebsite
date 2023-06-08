@@ -13,7 +13,7 @@
 <body>
 <section class="sub-header">
         <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
             
@@ -37,7 +37,7 @@
 
 <div class="row">
   <div class="blog-left">
-    <img src="images/certificate.jpg">
+    <img src="images/certificate.jpg" alt="certificate">
     <h2>Our Certificate & Online Programs For 2021</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, aut. 
       Quas a facilis quo accusantium, tempore molestiae autem,
@@ -84,11 +84,6 @@
                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
                </form>
             </div>
-
-
-
-
-
 
   </div>
   <div class="blog-right">
@@ -161,7 +156,7 @@
 <!-- JS!!! -->
 <script>
 
-  var navLinks = document.getElementById("navLinks");  
+  let navLinks = document.getElementById("navLinks");
   function showMenu(){
     navLinks.style.right = "0";
   } 
